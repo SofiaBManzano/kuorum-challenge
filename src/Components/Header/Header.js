@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import logoKuorum from "../../img/kuorum.svg";
 import informationIcon from "../../img/information.svg";
+import { Tooltip } from "react-tooltip";
 const Header = () => {
   const [scrolling, setScrolling] = useState(false);
 
@@ -36,6 +37,8 @@ const Header = () => {
       </div>
       <div>
         <svg
+          data-tooltip-id="my-tooltip"
+          data-tooltip-content="Pulsa para recibir ayuda"
           width="32"
           height="32"
           xmlns="http://www.w3.org/2000/svg"
@@ -43,6 +46,7 @@ const Header = () => {
         >
           <image href={informationIcon} alt="Logo Kuorum" />
         </svg>
+        <Tooltip id="my-tooltip" />
       </div>
     </header>
   );
