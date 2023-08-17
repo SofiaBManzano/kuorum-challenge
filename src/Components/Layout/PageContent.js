@@ -5,9 +5,9 @@ import iconCarbonFootprint from "../../img/carbon-footprint.svg";
 import iconVotation from "../../img/votation.svg";
 const PageContent = () => {
   return (
-    <section>
+    <section className="pr-4 pl-4 md:pr-0 md:pl-0 mt-[96px] flex flex-col gap-4 max-layout mx-auto">
       <InfoBlock
-        texto="Con esta votación has ayudado a reducir la Huella de carbono"
+        text="Con esta votación has ayudado a reducir la Huella de carbono"
         svg={
           <svg
             className="custom-icon"
@@ -15,16 +15,17 @@ const PageContent = () => {
             height="61"
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 72 61"
-            // fill="#4D7AE3"
           >
             <image href={iconCarbonFootprint} alt="Icono Huella de Carbono" />
           </svg>
         }
+        linkText="Saber más"
       />
       <SuccesfulVoteRegister />
       <InfoBlock
+        linkText="Crear votación"
         title="Crea tu votación"
-        texto="Construye tu votación en muy pocos pasos y obtén resultados inmediatos."
+        text="Construye tu votación en muy pocos pasos y obtén resultados inmediatos."
         svg={
           <svg
             className="custom-icon"

@@ -15,3 +15,12 @@ code {
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@layer components {
+  /* .text-block-width {
+    width: clamp(152px, 1vw, 282px);
+  } */
+  .max-layout{
+    width: clamp(288px, 70vw,418px)
+  }
+
+}
