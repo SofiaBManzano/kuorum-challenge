@@ -8,7 +8,11 @@ const InfoBlock = ({ title, text, svg, linkText }) => {
           {svg}
         </div>
         <div className="text-left pb-4 pt-4 pr-4 text-block-width">
-          {title && <h2 className="font-bold text-lg mb-1">{title}</h2>}
+          {title && (
+            <h2 className="font-bold text-lg text-[1rem] mb-1 text-black">
+              {title}
+            </h2>
+          )}
           <p className="text-sm font-normal mb-4">{text}</p>
           <a
             href="https://www.kuorum.org/"
