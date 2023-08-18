@@ -25,7 +25,7 @@ const Header = () => {
       } transition-all duration-300 ease-in-out z-50`}
     >
       <div className="flex items-center">
-        <Link to="/kuorum-challenge/" target="_self" >
+        <Link to="/kuorum-challenge/" target="_self" title="info">
           <svg
             width="134"
             height="32"
@@ -35,7 +35,7 @@ const Header = () => {
               scrolling ? "scale-90" : "scale-100"
             }`}
           >
-            <image href={logoKuorum} alt="Información" />
+            <image href={logoKuorum} alt="Kuorum logo" />
           </svg>
         </Link>
       </div>
@@ -44,6 +44,7 @@ const Header = () => {
           href="https://www.kuorum.org/"
           target="_blank"
           rel="noopener noreferrer"
+          title="info"
         >
           <svg
             data-tooltip-id="my-tooltip"
@@ -56,7 +57,7 @@ const Header = () => {
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 32 32"
           >
-            <image href={informationIcon} alt="Logo Kuorum" />
+            <image href={informationIcon} alt="información" />
           </svg>
         </a>
         <Tooltip id="my-tooltip" />
