@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/kuorum-challenge/static/css/main.ef673328.css",
-    "main.js": "/kuorum-challenge/static/js/main.47c36c64.js",
+    "main.js": "/kuorum-challenge/static/js/main.4d4d0f1b.js",
     "static/js/787.a11f0c3e.chunk.js": "/kuorum-challenge/static/js/787.a11f0c3e.chunk.js",
     "static/media/Inter.var.woff2?v=3.18": "/kuorum-challenge/static/media/Inter.var.9df5db385c3370707c5b.woff2",
     "static/media/Inter-italic.var.woff2?v=3.18": "/kuorum-challenge/static/media/Inter-italic.var.b27297c148a7ef314ce2.woff2",
@@ -49,11 +49,11 @@
     "static/media/check.svg": "/kuorum-challenge/static/media/check.6047c74860e3eb6e53811727085578da.svg",
     "index.html": "/kuorum-challenge/index.html",
     "main.ef673328.css.map": "/kuorum-challenge/static/css/main.ef673328.css.map",
-    "main.47c36c64.js.map": "/kuorum-challenge/static/js/main.47c36c64.js.map",
+    "main.4d4d0f1b.js.map": "/kuorum-challenge/static/js/main.4d4d0f1b.js.map",
     "787.a11f0c3e.chunk.js.map": "/kuorum-challenge/static/js/787.a11f0c3e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ef673328.css",
-    "static/js/main.47c36c64.js"
+    "static/js/main.4d4d0f1b.js"
   ]
 }
