@@ -18,7 +18,7 @@ Se pidió maquetar el material proporcionado utilizando React, Hooks y Tailwind 
 
 ## Resultado
 
-Puedes acceder a mi solución visitando [este enlace](https://sofiabmanzano.github.io/sofia-portfolio/).
+Puedes acceder a mi solución visitando [este enlace](https://sofiabmanzano.github.io/kuorum-challenge/).
 
 
 ¡Muchas gracias!

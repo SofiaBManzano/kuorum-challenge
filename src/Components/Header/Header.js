@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import logoKuorum from "../../img/kuorum.svg";
 import informationIcon from "../../img/information.svg";
 import { Tooltip } from "react-tooltip";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   const [scrolling, setScrolling] = useState(false);
@@ -24,7 +25,7 @@ const Header = () => {
       } transition-all duration-300 ease-in-out z-50`}
     >
       <div className="flex items-center">
-        <a href="/" target="_self" rel="noopener noreferrer">
+        <Link to="/" target="_self" rel="noopener noreferrer">
           <svg
             width="134"
             height="32"
@@ -36,7 +37,7 @@ const Header = () => {
           >
             <image href={logoKuorum} alt="Información" />
           </svg>
-        </a>
+        </Link>
       </div>
       <div>
         <a
