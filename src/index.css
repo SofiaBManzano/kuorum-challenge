@@ -12,12 +12,32 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
-
+:root {
+  --color-secondary-color: #4D7AE3;
+  --white: #FFF;
+}
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 @layer components {
   .max-layout {
     width: clamp(320px, 70vw, 418px);
+  }
+  .transition-underline {
+    border-bottom-width: 0;
+    background-image: linear-gradient(transparent, transparent),
+      linear-gradient(var(--white), var(--white));
+    background-size: 0 1.5px;
+    background-position: 0 100%;
+    background-repeat: no-repeat;
+    transition: background-size 0.5s ease-in-out;
+  }
+  .transition-underline-black {
+    background-image: linear-gradient(transparent, transparent),
+      linear-gradient(var(--color-secondary-color), var(--color-secondary-color));
+  }
+  .transition-underline:hover {
+    background-size: 100% 1.5px;
+    background-position: 0 100%;
   }
 }

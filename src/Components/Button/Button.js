@@ -14,6 +14,7 @@ const Button = ({ primary, size, label, onClick, loading }) => {
   `;
 
   return (
+    
     <button className={buttonClasses} onClick={onClick} disabled={loading}>
       {loading ? "Cargando..." : label}
     </button>

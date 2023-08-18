@@ -2,7 +2,7 @@
 
 ¡Hola! Esta es mi prueba técnica de maquetación propuesta por Kuorum.org. Comparto los detalles de la prueba y cómo abordé cada paso.
 
-## Descripción de mi Solución
+## Descripción
 
 Se pidió maquetar el material proporcionado utilizando React, Hooks y Tailwind CSS. Creé una interfaz responsive que se adapte a diferentes tamaños de pantalla, cumpliendo con los tres puntos de corte establecidos: 320px, 768px y 1024px. Además de esto, quise aportar valor adicional a la maquetación añadiendo mejoras que desde mi punto de vista, enriquecen la experiencia del usuario.
 
@@ -18,7 +18,7 @@ Se pidió maquetar el material proporcionado utilizando React, Hooks y Tailwind 
 
 ## Resultado
 
-Puedes ver mi solución en acción visitando [este enlace](https://sofiabmanzano.github.io/sofia-portfolio/).
+Puedes acceder a mi solución visitando [este enlace](https://sofiabmanzano.github.io/sofia-portfolio/).
 
 
 ¡Muchas gracias!

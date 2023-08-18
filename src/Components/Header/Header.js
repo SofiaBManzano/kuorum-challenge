@@ -7,11 +7,7 @@ const Header = () => {
   const [scrolling, setScrolling] = useState(false);
 
   const handleScroll = () => {
-    if (window.scrollY > 0) {
-      setScrolling(true);
-    } else {
-      setScrolling(false);
-    }
+    setScrolling(window.scrollY > 0);
   };
 
   useEffect(() => {
@@ -28,16 +24,15 @@ const Header = () => {
       } transition-all duration-300 ease-in-out z-50`}
     >
       <div className="flex items-center">
-        <a
-          href="/" target="_self"
-     
-          rel="noopener noreferrer"
-        >
+        <a href="/" target="_self" rel="noopener noreferrer">
           <svg
             width="134"
             height="32"
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 134 32"
+            className={`transition-transform transform-gpu ${
+              scrolling ? "scale-90" : "scale-100"
+            }`}
           >
             <image href={logoKuorum} alt="Información" />
           </svg>
@@ -54,6 +49,9 @@ const Header = () => {
             data-tooltip-content="Recibir ayuda"
             width="32"
             height="32"
+            className={`transition-transform transform-gpu ${
+              scrolling ? "scale-90" : "scale-100"
+            }`}
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 32 32"
           >

@@ -13,7 +13,7 @@ module.exports = {
     },
     extend: {
       colors: {
-        // black: "#577575",
+      
         "primary-color": "#575757",
         "primary-light": "#838383",
         "secondary-color": "#4D7AE3",
@@ -25,4 +25,4 @@ module.exports = {
   },
   plugins: [],
 };
-// require("./src/styles/custom.scss");
+

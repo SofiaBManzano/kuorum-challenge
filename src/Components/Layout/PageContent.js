@@ -6,7 +6,7 @@ import iconVotation from "../../img/votation.svg";
 
 const PageContent = () => {
   return (
-    <section className="pr-4 mb-8 pl-4 md:pr-0 md:pl-0 mt-[96px] pb-[32px] sm:p-4 md:p-0 flex flex-col gap-4 max-layout mx-auto">
+    <section className="pr-4 mb-8 pl-4 md:pr-0 md:pl-0 mt-[96px] pb-[32px]  md:p-0 flex flex-col gap-4 max-layout mx-auto">
       <InfoBlock
         text="Con esta votación has ayudado a reducir la Huella de carbono"
         svg={

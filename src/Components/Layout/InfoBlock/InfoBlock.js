@@ -18,7 +18,7 @@ const InfoBlock = ({ title, text, svg, linkText }) => {
             href="https://www.kuorum.org/"
             target="_blank"
             rel="noopener noreferrer"
-            className="font-semibold text-sm text-secondary-color"
+            className="font-semibold text-sm text-secondary-color transition-underline transition-underline-black transition-underline:hover"
           >
             {linkText}
           </a>
