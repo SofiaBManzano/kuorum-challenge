@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 
 const Button = ({ primary, size, label, onClick, loading }) => {
   const buttonClasses = `

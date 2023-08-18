@@ -1,70 +1,24 @@
-# Getting Started with Create React App
+# Prueba Técnica de Maquetación para Kuorum.org
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+¡Hola! Esta es mi prueba técnica de maquetación propuesta por Kuorum.org. Comparto los detalles de la prueba y cómo abordé cada paso.
 
-## Available Scripts
+## Descripción de mi Solución
 
-In the project directory, you can run:
+Se pidió maquetar el material proporcionado utilizando React, Hooks y Tailwind CSS. Creé una interfaz responsive que se adapte a diferentes tamaños de pantalla, cumpliendo con los tres puntos de corte establecidos: 320px, 768px y 1024px. Además de esto, quise aportar valor adicional a la maquetación añadiendo mejoras que desde mi punto de vista, enriquecen la experiencia del usuario.
 
-### `npm start`
+## Proceso
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1. **Maquetación en Figma**: Empecé estudiando el material proporcionado en FIGMA para para planificar la arquitectura de mi proyecto.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+2. **Desarrollo con React y Hooks**: Utilicé React para construir la interfaz. Con los Hooks de React me permitieron gestionar el estado y añadir alguna funcionalidad.
 
-### `npm test`
+3. **Estilos con Tailwind CSS**: Tuve mi primer acercamiendo utilizando Tailwind en los estilos de mi proyecto.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+5. **Despliegue**: Subí mi proyecto a un repositorio en GitHub y lo desplegué en GitHub Pages.
 
-### `npm run build`
+## Resultado
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Puedes ver mi solución en acción visitando [este enlace](https://sofiabmanzano.github.io/sofia-portfolio/).
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+¡Muchas gracias!
