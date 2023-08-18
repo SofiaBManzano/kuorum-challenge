@@ -25,7 +25,7 @@ const Header = () => {
       } transition-all duration-300 ease-in-out z-50`}
     >
       <div className="flex items-center">
-        <Link to="/" target="_self" rel="noopener noreferrer">
+        <Link to="/kuorum-challenge/" target="_self" >
           <svg
             width="134"
             height="32"

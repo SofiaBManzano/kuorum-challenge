@@ -1,14 +1,16 @@
-
-import './App.css';
-import Header from './Components/Header/Header';
-import PageContent from './Components/Layout/PageContent';
+import "./App.css";
+import Header from "./Components/Header/Header";
+import PageContent from "./Components/Layout/PageContent";
+import { BrowserRouter } from "react-router-dom";
 
 function App() {
   return (
-    <div className="App">
-      <Header/>
-      <PageContent/>
-    </div>
+    <BrowserRouter>
+      <div className="App">
+        <Header />
+        <PageContent />
+      </div>
+    </BrowserRouter>
   );
 }
 
